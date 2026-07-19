@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="020096d7-2add-45ca-90e4-8b4309574b80" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="9.325043480545418E-68" />
+      <entry key="MS500" value="3.9258181008787084E-14" />
+      <entry key="S2" value="4.453088878577156E-4" />
+      <entry key="S5" value="0.04838453163231652" />
+      <entry key="S10" value="0.286564217515362" />
+      <entry key="S30" value="1.5244095040092065" />
+      <entry key="S60" value="3.902311455332948" />
+      <entry key="M2" value="9.370133732354722" />
+      <entry key="M5" value="20.517032585457034" />
+      <entry key="M10" value="32.64493514011595" />
+      <entry key="M15" value="42.5854405846165" />
+      <entry key="M30" value="63.81553452289709" />
+      <entry key="H1" value="91.41383071126208" />
+      <entry key="H2" value="146.35539096895332" />
+      <entry key="H4" value="230.64920466675952" />
+      <entry key="D1" value="389.53566300384955" />
+      <entry key="W1" value="431.4481471378167" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0000000000000027" />
+      <entry key="MS500" value="1.0012089748933959" />
+      <entry key="S2" value="1.1864680033364332" />
+      <entry key="S5" value="1.5107892364002227" />
+      <entry key="S10" value="1.7148146178463979" />
+      <entry key="S30" value="1.9721063756135426" />
+      <entry key="S60" value="2.417301950130385" />
+      <entry key="M2" value="3.327829472650451" />
+      <entry key="M5" value="5.18333924254964" />
+      <entry key="M10" value="8.225224155793175" />
+      <entry key="M15" value="11.056486456748782" />
+      <entry key="M30" value="16.667746741484144" />
+      <entry key="H1" value="21.825107437165034" />
+      <entry key="H2" value="26.698560838302825" />
+      <entry key="H4" value="31.50098584825534" />
+      <entry key="D1" value="38.87447617057542" />
+      <entry key="W1" value="40.67873441756467" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="3.688763098732759E-12" />
+      <entry key="MS500" value="0.0051919596120796555" />
+      <entry key="S2" value="0.3377284456473808" />
+      <entry key="S5" value="0.9627368003376341" />
+      <entry key="S10" value="1.580061864246284" />
+      <entry key="S30" value="3.2577278358516524" />
+      <entry key="S60" value="6.131310082530555" />
+      <entry key="M2" value="12.528752248696932" />
+      <entry key="M5" value="25.571251755511963" />
+      <entry key="M10" value="40.77047645540317" />
+      <entry key="M15" value="53.55588115131631" />
+      <entry key="M30" value="80.41965134605121" />
+      <entry key="H1" value="113.19598067097483" />
+      <entry key="H2" value="173.0255112713959" />
+      <entry key="H4" value="262.13174558252916" />
+      <entry key="D1" value="428.40585435100456" />
+      <entry key="W1" value="472.1262251663502" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3G2caejyEXTHwUNNNVnK7uo9nsN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.PlayerData.executor&quot;: &quot;Run&quot;,
+    &quot;Python.StageData.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/gamerlele76/PyCharmMiscProject/SpaceFighters&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../                                      " />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-245168a56dbd-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.25134.203" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="020096d7-2add-45ca-90e4-8b4309574b80" name="Changes" comment="" />
+      <created>1783173169009</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1783173169009</updated>
+      <workItem from="1783173170361" duration="24000" />
+      <workItem from="1783173209213" duration="8102000" />
+      <workItem from="1783230755703" duration="6860000" />
+      <workItem from="1783296108304" duration="4943000" />
+      <workItem from="1783461018106" duration="3552000" />
+      <workItem from="1783762505863" duration="4134000" />
+      <workItem from="1783768009200" duration="41000" />
+      <workItem from="1783809202927" duration="2676000" />
+      <workItem from="1783849528868" duration="2519000" />
+      <workItem from="1783861568631" duration="621000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SpaceFighters$StageData.coverage" NAME="StageData Coverage Results" MODIFIED="1783834545999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data" />
+    <SUITE FILE_PATH="coverage/SpaceFighters$PlayerData.coverage" NAME="PlayerData Coverage Results" MODIFIED="1783849669098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data" />
+    <SUITE FILE_PATH="coverage/SpaceFighters$main.coverage" NAME="main Coverage Results" MODIFIED="1783852044844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
