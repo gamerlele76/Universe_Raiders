@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Universe Raiders Changelog
 
 # Version alpha
