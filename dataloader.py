@@ -3,7 +3,7 @@ from Data.PlayerData import *
 
 # Game Version
 GameTitle = "UniverseRaiders"
-Version = "a.0.1"
+Version = "a.1.0"
 
 # Load StartMenu Data
 start_menu = StartMenu()
