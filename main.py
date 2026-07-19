@@ -79,16 +79,6 @@ while RUNNING:
 
         player['rect'].centerx = player['x_pos']
 
-    # Stage 1 to 2
-        if isinstance(current_stage, Stage_1):
-            if player_Score == current_stage.milestone_score:
-                Is_Victory = True
-                Current_state = None
-                if NextRound:
-                    current_stage = Stage_2()
-                    current_music = current_stage.backgroundMusic
-                    current_bg = current_stage.Background()
-
     # Projectile Movement
         for projectile_rect in projectile['list']:
             projectile_rect.y -= projectile['speed']
@@ -213,10 +203,6 @@ while RUNNING:
         if now >= current_stage.RoundWait:
             channel = None
             Current_state = 'game'
-
-    elif Is_Victory:
-        screen.fill("Black")
-        
 
     pygame.display.flip()
         
