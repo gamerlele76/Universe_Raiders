@@ -6,6 +6,8 @@ pygame.init()
 pygame.mixer.init()
 
 Current_state = 'start_menu'
+Is_Victory = False
+NextRound = False
 RUNNING = True
 clock = pygame.time.Clock()
 FPS = 60
@@ -41,17 +43,19 @@ while RUNNING:
             break
 
         if event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_SPACE and now - player_last_fire > projectile['cooldown']:
-                player_last_fire = now
-                play_sfx = pygame.mixer.Sound(projectile['sound'])
-                play_sfx.set_volume(0.4)
-                play_sfx.play()
-                projectile_hitbox = pygame.Rect(player['x_pos'], player['y_pos'], projectile['rect_width'], projectile['rect_height'])
-                projectile_hitbox.center = player['rect'].center
-                projectile['list'].append(projectile_hitbox)
+            if Current_state == 'game':
+                if event.key == pygame.K_SPACE and now - player_last_fire > projectile['cooldown']:
+                    player_last_fire = now
+                    play_sfx = pygame.mixer.Sound(projectile['sound'])
+                    play_sfx.set_volume(0.4)
+                    play_sfx.play()
+                    projectile_hitbox = pygame.Rect(player['x_pos'], player['y_pos'], projectile['rect_width'], projectile['rect_height'])
+                    projectile_hitbox.center = player['rect'].center
+                    projectile['list'].append(projectile_hitbox)
             
             if event.key == pygame.K_RETURN and Current_state == 'start_menu':
                 Current_state = 'loading'
+
 # Game State
     if Current_state == 'game':
         pygame.display.set_caption(f"{GameTitle} {Version}   FPS: {int(clock.get_fps())}")
@@ -74,6 +78,16 @@ while RUNNING:
             player['x_pos'] += player['speed']
 
         player['rect'].centerx = player['x_pos']
+
+    # Stage 1 to 2
+        if isinstance(current_stage, Stage_1):
+            if player_Score == current_stage.milestone_score:
+                Is_Victory = True
+                Current_state = None
+                if NextRound:
+                    current_stage = Stage_2()
+                    current_music = current_stage.backgroundMusic
+                    current_bg = current_stage.Background()
 
     # Projectile Movement
         for projectile_rect in projectile['list']:
@@ -173,7 +187,7 @@ while RUNNING:
         else:
             pygame.time.wait(3000)
             Current_state = 'FirstRound'
-            current_stage.RoundWait = pygame.time.get_ticks() + 3500
+            current_stage.RoundWait = pygame.time.get_ticks() + 3000
 
         pygame.draw.rect(screen, 'White', filled_bar)
         pygame.draw.rect(screen, 'White', gui['Loading'], 2)
@@ -200,7 +214,13 @@ while RUNNING:
             channel = None
             Current_state = 'game'
 
+    elif Is_Victory:
+        screen.fill("Black")
+        
+
     pygame.display.flip()
         
 pygame.quit()
 sys.exit()
+
+# Line 79

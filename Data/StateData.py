@@ -45,3 +45,16 @@ class Stage_1:
         enemy['spawn_cd'] = 1500
         enemy['list'] = []
         return enemy
+    
+    milestone_score = 3
+
+class Stage_2:
+    backgroundMusic = 'Assets/bgMusic/stage2.mp3'
+
+    def Background(self):
+        background = pygame.image.load("Assets/Backgrounds/level2_bg.png").convert_alpha()
+        background = pygame.transform.scale(background, (800, 600))
+        return background
+    
+    def Enemies(self):
+        pass
